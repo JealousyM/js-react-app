@@ -7,7 +7,11 @@ ReactStormpath.init();
 ReactDOM.render(
     <Router history={browserHistory}>
         <Route path='/' component={MasterPage}>
+            <IndexRoute component={IndexPage} />
+            <LoginRoute path='/login' component={LoginPage} />
+            <Route path='/register' component={RegistrationPage} />
         </Route>
+
     </Router>,
     document.getElementById('app-container')
 );
