@@ -9,10 +9,10 @@ export default class Header extends React.Component {
                 <div className="container">
                     <div id="navbar-collapse" className="collapse navbar-collapse">
                         <ul className="nav navbar-nav">
-                            <li><Link to="/">Home</Link></li>
+                            <li><Link to="/">Главная</Link></li>
                             <Authenticated>
                                 <li>
-                                    <Link to="/profile">Profile</Link>
+                                    <Link to="/profile">Профиль</Link>
                                 </li>
                             </Authenticated>
                         </ul>
@@ -24,7 +24,7 @@ export default class Header extends React.Component {
                             </NotAuthenticated>
                             <NotAuthenticated>
                                 <li>
-                                    <Link to="/register">Create Account</Link>
+                                    <Link to="/register">Зарегистрироваться</Link>
                                 </li>
                             </NotAuthenticated>
                             <Authenticated>

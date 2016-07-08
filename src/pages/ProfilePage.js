@@ -9,13 +9,13 @@ export default class ProfilePage extends React.Component {
             <div>
                 <div>
                     <div>
-                        <h3>My Profile</h3>
+                        <h3>Мой профиль</h3>
                         <hr />
                     </div>
                 </div>
                 <div>
                     <div>
-
+                        Аутентификация прошла успешно
                     </div>
                 </div>
             </div>
